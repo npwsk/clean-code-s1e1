@@ -1,12 +1,28 @@
+/* Reset */
+img {
+  display: block;
+}
+
+ul {
+  margin: 0;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+input,
+button {
+  box-sizing: border-box;
+  outline: none;
+}
+
 /* Basic Style */
 body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
-}
-
-img {
-  display: block;
 }
 
 .header {
@@ -46,19 +62,6 @@ img {
   flex-grow: 1;
 }
 
-ul {
-  margin: 0;
-  padding: 0px;
-}
-li,
-h3 {
-  list-style: none;
-}
-input,
-button{
-  box-sizing: border-box;
-  outline: none;
-}
 .btn {
   display: flex;
   align-items: center;
