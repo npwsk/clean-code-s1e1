@@ -5,12 +5,12 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
-  <body>
+  <body class="app">
     <header class="header">
       <img class="header__img" src="./eisenhower-matrix.jpg" alt="the eisenhower matrix">
       <a class="header__more" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
-    <main class="main-content">
+    <main class="content">
       <section id="new-task-section">
         <h3 class="title title--add" for="new-task">Add Item</h3>
         <div class="task">
@@ -25,8 +25,8 @@
             <input class="task__checkbox checkbox" type="checkbox">
             <label class="task__label">Pay Bills</label>
             <input class="task__input" type="text">
-            <button class="task__btn btn edit">Edit</button>
-            <button class="task__btn btn delete">
+            <button class="task__btn btn btn--edit">Edit</button>
+            <button class="task__btn btn btn--delete">
               <img class="btn__img" src="./remove.svg" alt="delete task">
             </button>
           </li>
@@ -34,8 +34,8 @@
             <input class="task__checkbox checkbox" type="checkbox">
             <label class="task__label">Go Shopping</label>
             <input class="task__input" type="text" value="Go Shopping">
-            <button class="task__btn btn edit">Save</button>
-            <button class="task__btn btn delete">
+            <button class="task__btn btn btn--edit">Save</button>
+            <button class="task__btn btn btn--delete">
               <img class="btn__img" src="./remove.svg" alt="delete task">
             </button>
           </li>
@@ -48,8 +48,8 @@
             <input class="task__checkbox checkbox" type="checkbox" checked>
             <label class="task__label">See the Doctor</label>
             <input class="task__input" type="text">
-            <button class="task__btn btn edit">Edit</button>
-            <button class="task__btn btn delete">
+            <button class="task__btn btn btn--edit">Edit</button>
+            <button class="task__btn btn btn--delete">
               <img class="btn__img" src="./remove.svg" alt="delete task">
             </button>
           </li>
