@@ -4,6 +4,11 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
+
+img {
+  display: block;
+}
+
 .header {
   width: 500px;
   margin: 0 auto;
@@ -29,6 +34,11 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
+
+#new-task-section {
+  margin: 1em 0;
+}
+
 .task__input,
 .task__label {
   width: 56%;
@@ -46,9 +56,13 @@ h3 {
 }
 input,
 button{
+  box-sizing: border-box;
   outline: none;
 }
 .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: none;
   border: 0px;
   color: #888;
