@@ -32,7 +32,7 @@
   display: block;
   width: 100%;
 }
-.header__more {
+.header__link {
   font-family: fantasy, cursive;
 }
 
@@ -144,11 +144,11 @@
 }
 
 /* New Task */
-.title--add {
+.section--new-task .title {
   display: block;
   margin: 0 0 20px;
 }
-.task__input--new {
+.task--new .task__input {
   width: 318px;
 }
 
