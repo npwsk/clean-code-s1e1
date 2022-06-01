@@ -1,19 +1,16 @@
 /* Reset */
-img {
-  display: block;
-}
-
-ul {
+.tasks {
   margin: 0;
   padding: 0px;
 }
 
-li {
+.task {
   list-style: none;
 }
 
-input,
-button {
+.input,
+.checkbox,
+.btn {
   box-sizing: border-box;
   outline: none;
 }
@@ -32,6 +29,7 @@ button {
   text-align: right;
 }
 .header__img {
+  display: block;
   width: 100%;
 }
 .header__more {
@@ -136,6 +134,7 @@ button {
   width: 226px;
 }
 .btn__img {
+  display: block;
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;

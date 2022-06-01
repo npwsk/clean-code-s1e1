@@ -14,17 +14,17 @@
       <section id="new-task-section">
         <h3 class="title title--add" for="new-task">Add Item</h3>
         <div class="task">
-          <input class="task__input task__input--new" id="new-task" type="text">
+          <input class="task__input task__input--new input" id="new-task" type="text">
           <button class="btn">Add</button>
         </div>
       </section>
       <section>
         <h3 class="title">Todo</h3>
-        <ul id="incomplete-tasks">
+        <ul class="tasks" id="incomplete-tasks">
           <li class="task task--added">
             <input class="task__checkbox checkbox" type="checkbox">
             <label class="task__label">Pay Bills</label>
-            <input class="task__input" type="text">
+            <input class="task__input input" type="text">
             <button class="task__btn btn btn--edit">Edit</button>
             <button class="task__btn btn btn--delete">
               <img class="btn__img" src="./remove.svg" alt="delete task">
@@ -33,7 +33,7 @@
           <li class="task task--added task--editing">
             <input class="task__checkbox checkbox" type="checkbox">
             <label class="task__label">Go Shopping</label>
-            <input class="task__input" type="text" value="Go Shopping">
+            <input class="task__input input" type="text" value="Go Shopping">
             <button class="task__btn btn btn--edit">Save</button>
             <button class="task__btn btn btn--delete">
               <img class="btn__img" src="./remove.svg" alt="delete task">
@@ -43,11 +43,11 @@
       </section>
       <section>
         <h3 class="title">Completed</h3>
-        <ul id="completed-tasks">
+        <ul class="tasks" id="completed-tasks">
           <li class="task task--added">
             <input class="task__checkbox checkbox" type="checkbox" checked>
             <label class="task__label">See the Doctor</label>
-            <input class="task__input" type="text">
+            <input class="task__input input" type="text">
             <button class="task__btn btn btn--edit">Edit</button>
             <button class="task__btn btn btn--delete">
               <img class="btn__img" src="./remove.svg" alt="delete task">
